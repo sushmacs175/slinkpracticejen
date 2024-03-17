@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-17T23:50:53 IST" name="Default suite" finished-at="2024-03-17T23:51:02 IST" duration-ms="9410">
+    <groups>
+      <group name="regression">
+        <method signature="LoginExecute.oneendtoendLoginPage()[pri:0, instance:com.slinkr.testscript.LoginExecute@639c2c1d]" name="oneendtoendLoginPage" class="com.slinkr.testscript.LoginExecute"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-03-17T23:50:53 IST" name="Default test" finished-at="2024-03-17T23:51:02 IST" duration-ms="9410">
+      <class name="com.slinkr.testscript.LoginExecute">
+        <test-method is-config="true" signature="executeBeforeClass(java.lang.String)[pri:0, instance:com.slinkr.testscript.LoginExecute@639c2c1d]" started-at="2024-03-17T23:50:53 IST" name="executeBeforeClass" finished-at="2024-03-17T23:50:58 IST" duration-ms="5504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeClass -->
+        <test-method signature="oneendtoendLoginPage()[pri:0, instance:com.slinkr.testscript.LoginExecute@639c2c1d]" started-at="2024-03-17T23:50:58 IST" name="oneendtoendLoginPage" finished-at="2024-03-17T23:51:02 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneendtoendLoginPage -->
+        <test-method is-config="true" signature="executeAfterClass()[pri:0, instance:com.slinkr.testscript.LoginExecute@639c2c1d]" started-at="2024-03-17T23:51:02 IST" name="executeAfterClass" finished-at="2024-03-17T23:51:02 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterClass -->
+      </class> <!-- com.slinkr.testscript.LoginExecute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
