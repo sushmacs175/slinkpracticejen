@@ -8,11 +8,28 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">9,410</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">14,615</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.slinkr.testscript.LoginExecute</td><td><a href="#m0">oneendtoendLoginPage</a></td><td rowspan="1">1710699658642</td><td rowspan="1">3431</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.slinkr.testscript.LoginExecute</td><td><a href="#m0">loginErrorMsg</a></td><td rowspan="1">1710700665620</td><td rowspan="1">886</td></tr><tr class="failedeven"><td><a href="#m1">sendinginvalidUn</a></td><td rowspan="1">1710700670009</td><td rowspan="1">58</td></tr><tr class="failedeven"><td><a href="#m2">sendinginvalidUn1</a></td><td rowspan="1">1710700670384</td><td rowspan="1">41</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.slinkr.testscript.LoginExecute</td><td><a href="#m3">loginCosmeticVerification</a></td><td rowspan="1">1710700663482</td><td rowspan="1">2115</td></tr><tr class="passedeven"><td><a href="#m4">oneendtoendLoginPage</a></td><td rowspan="1">1710700666821</td><td rowspan="1">3174</td></tr><tr class="passedeven"><td><a href="#m5">unpwdheightandwidth</a></td><td rowspan="1">1710700670668</td><td rowspan="1">47</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.slinkr.testscript.LoginExecute#oneendtoendLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.slinkr.testscript.LoginExecute#loginErrorMsg</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Workbook.getSheet(String)&quot; is null
+	at com.slinkr.genericutility.FileUtility.getExceldata(FileUtility.java:27)
+	at com.slinkr.testscript.LoginExecute.loginErrorMsg(LoginExecute.java:106)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.slinkr.testscript.LoginExecute#sendinginvalidUn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Workbook.getSheet(String)&quot; is null
+	at com.slinkr.genericutility.FileUtility.getExceldata(FileUtility.java:27)
+	at com.slinkr.testscript.LoginExecute.sendinginvalidUn(LoginExecute.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.slinkr.testscript.LoginExecute#sendinginvalidUn1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Sheet.getRow(int)&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Workbook.getSheet(String)&quot; is null
+	at com.slinkr.genericutility.FileUtility.getExceldata(FileUtility.java:27)
+	at com.slinkr.testscript.LoginExecute.sendinginvalidUn1(LoginExecute.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.slinkr.testscript.LoginExecute#loginCosmeticVerification</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">background color of login button is rgba(13, 110, 253, 1)<br/>fontfamily is system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.slinkr.testscript.LoginExecute#oneendtoendLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.slinkr.testscript.LoginExecute#unpwdheightandwidth</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">username Height is 47<br/>username width is 204</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
